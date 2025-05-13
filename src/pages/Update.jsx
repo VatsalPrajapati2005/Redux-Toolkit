@@ -47,14 +47,14 @@ const Update = () => {
                     <input type="date" {...register('date')} className="form-control" placeholder="Enter date"/>
                 </div>
                 <div className="mt-3 d-flex ">
-                    <input type="radio"{...register('gender')} value="male" className="form-check  "/>male
-                    <input type="radio"{...register('gender')} value="female" className="form-check ms-3"/>female
-                    <input type="radio"{...register('gender')} value="other" className="form-check ms-3"/>other
+                    <input type="radio"{...register('gender')} value="male" className="form-check  "/>Male
+                    <input type="radio"{...register('gender')} value="female" className="form-check ms-3"/>Female
+                    <input type="radio"{...register('gender')} value="other" className="form-check ms-3"/>Other
                 </div>
                 <div className="mt-3 d-flex ">
-                    <input type="checkbox"{...register('hobbies')} value="playing" className="form-check"/>playing
-                    <input type="checkbox"{...register('hobbies')} value="reading" className="form-check ms-3"/>reading
-                    <input type="checkbox"{...register('hobbies')} value="other" className="form-check ms-3"/>other
+                    <input type="checkbox"{...register('hobbies')} value="playing" className="form-check"/>Playing
+                    <input type="checkbox"{...register('hobbies')} value="reading" className="form-check ms-3"/>Reading
+                    <input type="checkbox"{...register('hobbies')} value="other" className="form-check ms-3"/>Other
                 </div>
                 <div className="mt-4">
                     <textarea placeholder="Enter Address"{...register('address')} className="form-control"></textarea>
